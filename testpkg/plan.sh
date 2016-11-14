@@ -1,4 +1,4 @@
-pkg_origin=myorigin
+pkg_origin=core
 pkg_name=testapp
 pkg_version=0.1.0
 pkg_maintainer="The Habitat Maintainers <humans@habitat.sh>"
