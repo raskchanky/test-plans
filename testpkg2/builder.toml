@@ -1,0 +1,4 @@
+[publish]
+enabled = true
+url = "http://app.acceptance.habitat.sh/v1/depot"
+channel = "unstable"
