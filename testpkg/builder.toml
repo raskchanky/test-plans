@@ -1,3 +1,0 @@
-[publish]
-enabled = true
-url = "http://localhost:9636/v1/depot"
