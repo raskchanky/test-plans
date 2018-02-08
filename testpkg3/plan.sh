@@ -7,6 +7,8 @@ pkg_upstream_url=https://github.com/habitat-sh/habitat-example-plans
 pkg_source=nosuchfile.tar.gz
 pkg_deps=(core/testapp)
 pkg_expose=()
+pkg_bin_dirs=(bin)
+pkg_svc_run="sleep 10000"
 
 do_download() {
   return 0
