@@ -1,6 +1,6 @@
 pkg_origin=chefsalim
 pkg_name=testapp3
-pkg_version=0.1.1
+pkg_version=0.1.2
 pkg_maintainer="The Habitat Maintainers <humans@habitat.sh>"
 pkg_license=()
 pkg_upstream_url=https://github.com/habitat-sh/habitat-example-plans
