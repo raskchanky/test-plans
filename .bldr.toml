@@ -1,0 +1,5 @@
+[testapp3]
+plan_path = "testpkg6"
+paths = [
+  "testpkg6/*"
+]
