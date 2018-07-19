@@ -1,5 +1,5 @@
-[testapp3]
-plan_path = "testpkg6"
+[testapp]
+plan_path = "testapp"
 paths = [
-  "testpkg6/*"
+  "testapp/*"
 ]
