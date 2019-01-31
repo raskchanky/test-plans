@@ -18,7 +18,7 @@ function Invoke-Unpack {
 function Invoke-Build {
     Write-Host "Inside build"
     dir c:\\Users
-    curl http://localhost:9631/census
+    Invoke-WebRequest -Uri http://localhost:9631/census
 }
 
 function Invoke-Install {
