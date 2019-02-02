@@ -5,7 +5,7 @@ $pkg_maintainer="The Habitat Maintainers <humans@habitat.sh>"
 $pkg_upstream_url="https://github.com/habitat-sh/habitat-example-plans"
 $pkg_source="nosuchfile.tar.gz"
 $pkg_bin_dirs=@("bin")
-$pkg_svc_run="sleep 10000"
+$pkg_svc_run="sleep 10001"
 
 function Invoke-Download {
 }
