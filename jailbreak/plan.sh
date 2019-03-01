@@ -26,9 +26,9 @@ do_build() {
   echo "Connect to external site"
   wget -t 1 http://www.google.com
   echo "Connect to acceptance bastion node for census"
-  wget -t 1 http://10.0.0.95:9631/census
+  wget -t 1 http://10.0.0.95:9631/census || true
   echo "Connect to live bastion node for census"
-  wget -t 1 http://10.0.0.237:9631/census
+  wget -t 1 http://10.0.0.237:9631/census || true
   return 0
 }
 
