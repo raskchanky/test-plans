@@ -21,9 +21,14 @@ do_unpack() {
 
 do_build() {
   echo "Inside build"
+  echo "Root directory contents"
   echo `ls /`
-  wget http://172.16.145.160:9631/census
-  cat census
+  echo "Connect to external site"
+  wget -t 1 http://www.google.com
+  echo "Connect to acceptance bastion node for census"
+  wget -t 1 http://10.0.0.95:9631/census
+  echo "Connect to live bastion node for census"
+  wget -t 1 http://10.0.0.237:9631/census
   return 0
 }
 
