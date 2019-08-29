@@ -8,7 +8,7 @@ pkg_source=nosuchfile.tar.gz
 pkg_deps=()
 pkg_expose=()
 pkg_bin_dirs=(bin)
-pkg_svc_run="sleep 10011"
+pkg_svc_run="sleep 10012"
 
 do_download() {
   return 0
